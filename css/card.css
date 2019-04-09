@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #c45308;
+     font-family: sans-serif;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+     min-height: 100vh;
+     margin: 0;
+ }
+
+ h3 {
+     margin: 10px 0;
+ }
+
+ h6 {
+     margin: 5px 0;
+     text-transform: uppercase;
+ }
+
+ p {
+     font-size: 14px;
+     line-height: 21px;
+ }
+
+ .card {
+     background-color: #ffffff;
+     box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+     color: #000000;
+     padding-top: 30px;
+     position: relative;
+     width: 350px;
+     max-width: 100%;
+     text-align: center;
+ }
+
+ .card .round {
+     border: 2px solid #d35400;
+     border-radius: 50%;
+     padding: 7px;
+ }
+
+ .card .round:hover {
+
+     border: 2px solid #16a085;
+     opacity: 0.8;
+     transition: 0.5s;
+ }
+
+ button.primary {
+     background-color: #d35400;
+     border: 1px solid #d35400;
+     width: 200px;
+     border-radius: 3px;
+     color: #ffffff;
+     font-family: sans-serif;
+     font-weight: 500;
+     padding: 10px;
+     margin: 5px;
+
+ }
+
+ button.primary:active {
+     background-color: #d35400;
+     box-shadow: 0 5px #b44a03;
+     transform: translateY(4px);
+ }
+
+ button.message {
+     background-color: #d35400;
+     border: 1px solid #d35400;
+     width: 100px;
+     border-radius: 3px;
+     color: #ffffff;
+     font-family: sans-serif;
+     font-weight: 500;
+     padding: 10px;
+ }
+
+
+ .skills {
+     color: #d35400;
+     background-color: #ffffff;
+     text-align: left;
+     padding: 15px;
+     margin-top: 30px;
+ }
+
+ .skills ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ .skills ul li {
+     border: 1px solid #d35400;
+
+     border-radius: 2px;
+     display: inline-block;
+     font-size: 12px;
+     margin: 0 7px 7px 0;
+     padding: 7px;
+ }
